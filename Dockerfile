@@ -1,2 +1,3 @@
-FROM webdevops/php-nginx:7.4-alpine
-COPY ./src /app
+FROM php:fpm-alpine
+COPY ./src /usr/src/app
+WORKDIR /usr/src/app
