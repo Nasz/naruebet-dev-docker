@@ -39,14 +39,16 @@
         <main class="px-3">
             <h1>Who am I?</h1>
             <p class="lead">Let's get through these channels to know me.</p>
-            
+            <div class="row">
+            <div></div>
+            </div>
             <p class="lead">
                 <a href="#" class="btn btn-secondary fw-bold border-white bg-white">Learn more</a>
             </p>
         </main>
 
         <footer class="mt-auto text-black-50">
-            <p>Cover template for <a href="https://getbootstrap.com/" class="text-dark">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-dark">@mdo</a>.</p>
+            <p>Originally released on Monday, March 22, 2021, last modify March 23, 2021.</p>
         </footer>
     </div>
     <!-- jQuery JS -->
