@@ -48,7 +48,7 @@
         </main>
 
         <footer class="mt-auto text-black-50">
-            <p>Originally released on Monday, March 22, 2021, last modify March 23, 2021.</p>
+            <p>Originally released on Monday, March 22, 2021, last modify March 25, 2021.</p>
         </footer>
     </div>
     <!-- jQuery JS -->
