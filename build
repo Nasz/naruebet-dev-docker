@@ -1,9 +1,0 @@
-#!/bin/sh
-
-TAG="${1:-latest}"
-OPTS="${2:-}"
-TIMEZONE="Asia/Bangkok"
-
-# build [--no-cache]
-docker build $OPTS --build-arg timezone=$TIMEZONE -t npulidom/alpine-nginx-php:$TAG .
-echo "\n-> Build success\n"
