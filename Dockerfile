@@ -1,9 +1,6 @@
-FROM composer:latest as build
+FROM php:8-apache
 WORKDIR /app
 COPY ./src /app
-RUN composer install
-
-FROM php:8-apache
 RUN docker-php-ext-install pdo pdo_mysql
 
 EXPOSE 8080
